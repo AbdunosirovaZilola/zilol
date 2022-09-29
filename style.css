@@ -1,0 +1,490 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+}
+header,
+footer{
+    display: flex;
+    margin: 47px 0;
+    text-transform: uppercase;
+    align-items: center;
+}
+.container{
+    width: 1220px;
+    margin: 0 auto;
+}
+header .container,
+footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+.header .container .left-hover{
+    background-color: #ff9797a1;
+}
+header .left{
+   display: flex; 
+}
+header .left h4{
+    padding: 0 32px 0 0;
+}
+header img{
+    width: 50px;
+    margin-top: -30px;
+    height: 87px;
+}
+header ul,
+footer .ul{
+    list-style: none;
+    font-weight: 550;
+}
+header ul li,
+footer ul li{
+    display: inline;
+    padding: 20px 10px 20px 0;
+    font-size: 20px;
+}
+section{
+    margin: 100px 0;
+}
+.tittle h1{
+    font-size: 38px;
+    text-align: center;
+    margin-top: -45px;
+    margin-bottom: 60px;
+}
+section h2{
+    text-align: center;
+    margin: 60px 0 100px;
+    font-size: 28px;
+    font-weight: 200;
+}
+section.section1 .container{
+    display: flex;
+    justify-content: space-between;
+}
+.section.section1 .row1 h5{
+    font-size: 18px; 
+    color:#575757;
+    text-transform: uppercase;
+}
+section.section1 .row1 p{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+section.section1 .row2 img{
+    width: 300px;
+    height: 480px;
+    object-fit: cover;
+    border-radius: 160px;
+    outline: 1px solid #474747;
+    outline-offset: 30px;
+    margin-left: -100px;
+    margin-top:10px;
+}
+section.section1 .row3{
+    margin-top:30px;
+}
+section.section1 .row3 h3{
+    text-align: right;
+    padding: 0 0 28px;
+    font-size: 36px;
+}
+section.section1 .row3 h5{
+    text-align: right;
+    color: #474747;
+    padding: 10px 0;
+    width: 162px;
+    text-transform: uppercase;
+}
+.sectionrow{
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+    height: 120px;
+}
+section.section2,
+section.section3,
+section.section4,
+section.section5{
+    display: flex;
+    flex-direction: column;
+}
+section.section2 .row,
+section.section3 .row,
+section.section4 .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+section.section2 .row img{
+    width: 110px;
+    height: 100px;
+}
+section.section2 .row h4{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 30px;
+}
+section.section2 .row h5{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 18px;
+    color: #474747;
+}
+section.section3 .row span{
+    color: #474747;
+}
+section.section3 .row h4{
+    margin: 20px 0 0 0;
+    font-size: 20px;
+    font-weight: 200;
+}
+section.section3 .row p{
+    padding: 5px 0 0 0;
+    color: #474747;
+    font-size: 15px;
+}
+section.section4 .row .column{
+    display: flex;
+    flex-direction: column;
+    width: calc(33% - 10px);
+    margin: 0 5px;
+}
+section.section4 .row .column img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 36px;
+}
+section.section4 .row .column span{
+    color: #474747;
+}
+section.section4 .row .column h1{
+    margin-top: 20px;
+    font-size: 26px;
+}
+section.section5 .first button{
+    position: absolute;
+    top: 150px;
+    right: 0;
+    height: 50px;
+    padding: 5px;
+    width: 30px;
+    font-size: 30px;
+    border: none;
+    background-color: transparent;
+}
+section.section5 .first #left{
+    position: absolute;
+    top: 150px;
+    right: 0;
+}
+section.section5 .first #right{
+    position: absolute;
+    top: 150px;
+    left: 0;
+}
+section.section5 .first p{
+    text-align: center;
+    font-size: 28px;
+    padding: 100px;
+}
+section.section5 .second h3{
+    text-align: center;
+    font-size: 26px;
+    padding: 5px 0;
+    text-decoration: none;
+}
+section.section .first{
+    position: relative;
+    height: 300px;
+}
+section.section5 .second h4 span{
+    color: rgb(3,198,246);
+}
+section.section5 .third h3 {
+    text-align: center;
+    padding: 100px 0 20px;
+    font-size: 30px;
+    text-decoration: none;
+}
+section.section5 .third .row img{
+    width: calc(20% - 5px);
+    height: 280px;
+    object-fit: cover;
+}
+section.section5 .fourth .circle{
+    background-color: rgba(128, 128, 128, 0.103);
+    width: 25%;
+    margin: 0 auto;
+    height: 250px;
+    border-radius: 50%;
+}
+section.section5 .fourth .circle p{
+    text-align: left;
+    font-size: 20px;
+    position: relative;
+    top: 50px;
+    left: 90px;
+}
+section.section5 .fourth .circle h1{
+    text-align: left;
+    font-size: 30px;
+    position: relative;
+    top: 60px;
+    left: 90px;
+}
+section.section5 .fourth .circle i{
+    position: relative;
+    top: 65px;
+    left: 90px;
+    font-size: 36px;
+    transform: rotate(40deg);
+    margin-top: 20px;
+}
+footer a{
+    text-decoration: none;
+    color: #000;
+}
+@media only screen and (min-width:1062px) and (max-width:1240px) {
+    .container{
+        width: 960px;
+    }
+}
+@media only screen and (min-width:850px) and (max-width:1062px){
+    .container{
+        width: calc(100% - 20px);
+        margin: 0 10px;
+    }
+    .sectionrow{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    section.section1 .row1 p{
+        width: 260px;
+    }
+}
+@media only screen and (min-width:600px) and (max-width:850px){
+    .container{
+        width: 100%;
+    }
+    header .container,
+    footer .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    header .left{
+        margin: 0 auto;
+        width: 200px;
+    }
+    header .left h4{
+        padding: 0 20px;
+    }
+    header img{
+        margin-top: 20px;
+    }
+    header ul,
+    footer ul{
+     margin-top: 20px;   
+    }
+    .section.section1 .container{
+        display: flex;
+        flex-direction: column;
+    }
+    section.section1 .row1,
+    section.section1 .row2,
+    section.section1 .row3{
+        width: calc(100% - 20px);
+        margin: 15px 20px;
+    }
+    section.section1 .row2{
+        order: -1;
+    }
+    section.section1 .row2 img{
+        display: block;
+        margin: 10px auto;
+    }
+    section.section1 .row3{
+        margin-top: 30px;
+    }
+    section.section1 .row h3{
+        text-align: right;
+        margin-top: -20px;
+        padding: 0;
+    }
+    section.section1 .row3 h5{
+        text-align: left;
+        margin-bottom: -36px;
+        margin-top: 20px;
+        width: 100%;
+    }
+    section.section2 .row,
+    section.section3 .row,
+    section.section4 .row{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    section.section2 .row .column{
+        width: 0 auto;
+        display: block;
+    }
+    section.section3 .row .column{
+        width: 48%;
+        margin: 10px auto;
+        padding-left: 40px;
+        padding-top: 10px;
+        box-shadow: -2px 2px 11px rgb(175,175,175);
+        height: 400px;
+    }
+    section.section5 .third .row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    section.section5 .fourth .circle{
+        width: 350px;
+        height: 350px;
+        margin: 20px auto;
+    }
+    section.section5 .fourth .circle p{
+        left: 100px;
+        top: 60px;
+    }
+    section.section5 .fourth .circle h1{
+        left: 100px;
+        font-size: 38px;
+    }
+    .sectionrow{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    footer a{
+        margin-top: 10px;
+    }
+}
+@media only screen and (max-width:600px) {
+    .container{
+        width: 100%;
+    }
+    header .container,
+    footer .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    header .left{
+        margin: 0 auto;
+        width: 200px;
+    }
+    header .left h4{
+        padding: 0 20px;
+    }
+    header img{
+        margin-top: 20px;
+    }
+    header ul,
+    footer ul{
+        margin-top: 20px;
+    }
+    section.section1 .container{
+        display: flex;
+        flex-direction: column;
+    }
+    section.section1 .row1,
+    section.section1 .row2,
+    section.section1 .row3{
+        width: calc(100% - 20px);
+        margin: 15px 20px;
+    }
+    section.section1 .row2{
+        order: -1;
+    }
+    section.section1 .row2 img{
+        display: block;
+        margin: 10px auto;
+    }
+    section.section1 .row3{
+        margin-top: 30px;
+    }
+    section.section1 .row3 h3{
+        text-align: center;
+        margin-top: -20px;
+        padding: 0;
+    }
+    section.section1.row3 h5{
+        text-align: left;
+        margin-bottom: -36px;
+        margin-top: 20px;
+        width: 100%;
+    }
+    section.section2 .row,
+    section.section3 .row,
+    section.section4 .row{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    section.section2 .row .column{
+        width: 230px;
+        margin-bottom: 30px;
+    }
+    section.section2 .row img{
+        margin: 0 auto;
+        display: block;
+    }
+    section.section3 .row .column{
+        width: calc(100% - 40px);
+        margin: 10px auto;
+        padding-left: 40px;
+        padding-top: 10px;
+        box-shadow: -2px 2px 11px rgb(175,175,175);
+        height: 400px;
+    }
+    section.section5 .first p{
+        font-size: 19px;
+    }
+    section.section4 .row .column{
+        width: calc(100% - 40px);
+        box-shadow: 0 1px 9px 9px rgb(208, 208, 208);
+        margin: 15px auto;
+    }
+    section.section4 .row .column span{
+        padding-left: 20px;
+    }
+    section.section4 .column h1{
+        padding-left: 20px;
+        padding-bottom: 10px;
+    }
+    section.section5 .third .row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    section.section5 .third .row img{
+        width: calc(100% - 20px);
+        margin: 10px auto;
+    }
+    section.section5 .fourth .circle{
+        width: 280px;
+        height: 280px;
+        margin: 20px auto;
+    }
+    section.section5 .fourth .circle p{
+        left: 100px;
+        top: 60px;
+    }
+    section.section5 .fourth .circle h1{
+        left: 100px;
+        font-size: 38px;
+    }
+    .sectionrow{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    footer a{
+        margin-top: 10px;
+    }
+}
